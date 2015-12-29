@@ -1,0 +1,19 @@
+//
+//  My2048Demo.pch
+//  My2048Demo
+//
+//  Created by 陆金龙 on 15/12/25.
+//  Copyright © 2015年 Nick. All rights reserved.
+//
+
+#ifndef My2048Demo_pch
+#define My2048Demo_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define LabelPadding 10
+#define GroundWH  ([UIApplication sharedApplication].windows.lastObject.frame.size.width  - 20)
+#define LABELWH  ((GroundWH - 3 * LabelPadding - 20) / 4)
+#define Color(r,g,b)     [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#endif /* My2048Demo_pch */
