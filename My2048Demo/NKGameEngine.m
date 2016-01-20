@@ -84,6 +84,7 @@
 }
 //游戏结束待优化
 #warning
+
 - (BOOL)gameOver:(NSMutableArray *)matrix {
     int count = 0;
     for (NKNumbelLabel *label in matrix) {
